@@ -536,13 +536,15 @@ span {
     color: white;
 }
 
-.footer-section {
+#footer-section {
+    width: 102vw;
     background-color: black;
     text-align: center;
     color: grey;
     padding: 0;
     margin: 0;
     list-style-type: none;
+    align-content: center;
 }
 
 .fa {
@@ -560,25 +562,13 @@ span {
 }
 
 .fa-facebook {
-    background: grey;
     color: white;
 }
 
 .fa-linkedin {
-    background: grey;
     color: white;
 }
 
 .fa-instagram {
-    background: grey;
     color: white;
-}
-
-
-/* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-
-#map {
-    height: 100%;
-    width: 100;
 }
